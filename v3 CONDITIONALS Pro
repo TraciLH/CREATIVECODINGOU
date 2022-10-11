@@ -1,0 +1,15 @@
+void setup() {
+  //screen size
+  size(640, 360);
+}
+
+void draw() {
+  background(250, 218, 221);
+
+  if(mousex > 200){
+    background(128, 128, 0);
+  }
+
+stroke(255, 255, 255);
+line(200, 0, 200, height);
+}
